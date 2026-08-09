@@ -49,7 +49,7 @@ Temperature-Converter/
 
 ## 🖼️ Application Preview
 
-![Temperature Converter Preview](screenshot/screenshot.png)
+![Temperature Converter Preview](screenshot.png)
 
 ---
 
