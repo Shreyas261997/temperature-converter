@@ -91,7 +91,7 @@ This project was developed as part of my **SkillCraft Technology Internship** an
 
 ## 👨‍💻 Author
 
-**Shreyas Kushwaha**
+**Shreyas Kushwaha**|
 B.Tech – Computer Engineering
 
 ---
