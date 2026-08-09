@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="icon">🌡️</div>
+            <h1>Temperature Converter</h1>
+            <p>Convert temperatures between Celsius, Fahrenheit and Kelvin.</p>
+        </header>
+
+        <main class="converter-card">
+            <div class="input-group">
+                <label for="temperature">Temperature</label>
+                <input
+                    type="number"
+                    id="temperature"
+                    placeholder="Enter temperature"
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="unit">Convert From</label>
+                <select id="unit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
+
+            <div class="buttons">
+                <button id="convertBtn">Convert</button>
+                <button id="clearBtn" class="clear-btn">Clear</button>
+            </div>
+
+            <div id="error" class="error"></div>
+
+            <section id="results" class="results hidden">
+                <h2>Conversion Results</h2>
+
+                <div class="result-grid">
+                    <div class="result-card">
+                        <h3>Celsius</h3>
+                        <p id="celsiusResult">0.00 °C</p>
+                    </div>
+
+                    <div class="result-card">
+                        <h3>Fahrenheit</h3>
+                        <p id="fahrenheitResult">0.00 °F</p>
+                    </div>
+
+                    <div class="result-card">
+                        <h3>Kelvin</h3>
+                        <p id="kelvinResult">0.00 K</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Temperature Converter &copy; 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
